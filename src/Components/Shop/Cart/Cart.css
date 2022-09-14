@@ -1,0 +1,30 @@
+.cart {
+  padding-left: 10px;
+}
+.cart h2 {
+  background-color: #ff9800;
+  padding: 10px;
+}
+.cart button {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-family: cursive;
+  background-color: #ff9800;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.cart button:hover {
+  background-color: #000;
+  padding-left: 30px;
+}
+
+/* media query */
+@media screen and (max-width: 1000px) {
+  .cart {
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+  }
+}
